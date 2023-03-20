@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "fork": "npx hardhat node --fork https://sly-thrumming-wave.discover.quiknode.pro/85ae28ec346568c938b743390ffe86c8dacb3fa0/",
-    "fork-block": "npx hardhat node --fork https://sly-thrumming-wave.discover.quiknode.pro/85ae28ec346568c938b743390ffe86c8dacb3fa0/ --fork-block-number",
+    "fork": "npx hardhat node --fork https://radial-magical-frog.discover.quiknode.pro/f30b598e936799e54227873a5dad80fc45352f4b/",
+    "fork-block": "npx hardhat node --fork https://radial-magical-frog.discover.quiknode.pro/f30b598e936799e54227873a5dad80fc45352f4b/ --fork-block-number",
     "query-block": "curl --data '{\"method\":\"eth_blockNumber\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"}' -H \"Content-Type: application/json\" -X POST localhost:8545"
   },
 	"dependencies": {
